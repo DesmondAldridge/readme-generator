@@ -1,18 +1,3 @@
-const axios = require("axios");
-
-let whichLicense = `${data.license}`;
-let queryURL = 'https://opensource.org/licenses/' + whichLicense;
-
-console.log(queryURL);
-
-axios({
-    method: 'get',
-    url: queryURL,
-    responseType: 'stream'
-}).then(function(response) {
-  console.log(response);
-});
-
 // function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title} 
