@@ -2,15 +2,13 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 const generateMarkdown = require("./utils/generateMarkdown");
 
-const Choices = require("inquirer/lib/objects/choices");
-
 
 // Questions
 function promptUser() {
     return inquirer.prompt([
       {
         type: "input",
-        name: "name",
+        name: "title",
         message: "What is the title of your project?"
       },
       {
@@ -59,12 +57,12 @@ function promptUser() {
 
 // function to write README file
 function writeToFile(fileName, data) {
-  fs.writeFile(fileName, data, "utf8", function(err)) {
+  fs.writeFile(fileName, data, "utf8", function(err) {
     if (err) {
       throw err;
     }
-  }
-}
+  });
+};
 
 // function to initialize program
 async function init() {
@@ -75,12 +73,11 @@ async function init() {
     writeToFile("README.md", generateMarkdown(answers));
     console.log("Successfully wrote the readme!");
 
-    catch(err) {
+  } catch(err) {
       console.log(err);
     }
-  }
+  };
 
-}
 
 // function call to initialize program
 init();
