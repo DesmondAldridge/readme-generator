@@ -19,28 +19,27 @@ function promptUser() {
       {
         type: "input",
         name: "installation",
-        message: "Please input your project's installation instructions:"
+        message: "Please input instructions on how to install your program:"
       },
       {
         type: "input",
         name: "usage",
-        message: "Please input your project's usage information:"
+        message: "Please input instructions on how to use your program:"
       },
       {
         type: "input",
         name: "contribution",
-        message: "Please input your project's contribution guidelines:"
+        message: "Please list all contributors and contributions to your program:"
       },
       {
         type: "input",
         name: "test",
-        message: "Please input your project's test instructions:"
+        message: "Please input instructions on how to test your program:"
       },
       {
         type: "input",
         name: "license",
         message: "Please choose a license for your project:",
-        choices: ["Academic Free License v3.0", "Apache 2.0", "BSD 3", "Creative Commons", "wtfpl", "GPL", "MIT", "None"]
       },
       {
         type: "input",
