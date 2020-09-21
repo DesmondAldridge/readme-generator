@@ -4,6 +4,8 @@
   ## DESCRIPTION
   This command line program generates a basic README file based on user input.
 
+  View demo <a href="https://drive.google.com/file/d/1QuzsCEA-r8YG5HxdSLXLc8NUn9di7rtY/view?usp=sharing">here</a>.
+
   ## TABLE OF CONTENTS
   - [Installation](#installation)
   - [Usage](#usage)
