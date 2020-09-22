@@ -1,10 +1,10 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
 
-  var license = data.license.replace(" " , "%20");
+  var license = data.license.replace(/ /g , "%20");
 
   return `# ${data.title} 
-  ![License](https://img.shields.io/badge/LICENSE-${license}-GREEN)
+  ![License](https://img.shields.io/badge/LICENSE-${license}-blue)
 
   ## DESCRIPTION
   ${data.description}
