@@ -37,9 +37,10 @@ function promptUser() {
         message: "Please input instructions on how to test your program:"
       },
       {
-        type: "input",
+        type: "checkbox",
         name: "license",
         message: "Please choose a license for your project:",
+        choices: ["Academic Free License v3.0", "Apache 2.0", "BSD 3", "Creative Commons", "wtfpl", "GPL", "MIT", "None"]
       },
       {
         type: "input",
