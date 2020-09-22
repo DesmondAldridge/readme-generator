@@ -1,5 +1,5 @@
 # Apptastic Xample 
-  ![License](https://img.shields.io/badge/LICENSE-<Hogwarts>-GREEN)
+  ![License](https://img.shields.io/badge/LICENSE-Hogwarts-GREEN)
 
   ## DESCRIPTION
   An example of a generated readme file from my README Generator CLI app.

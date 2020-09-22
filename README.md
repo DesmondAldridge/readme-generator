@@ -1,5 +1,5 @@
 # README Generator 
-  ![License](https://img.shields.io/badge/LICENSE-<none>-GREEN)
+  ![License](https://img.shields.io/badge/LICENSE-none-GREEN)
 
   ## DESCRIPTION
   This command line program generates a basic README file based on user input.

@@ -40,7 +40,13 @@ function promptUser() {
         type: "list",
         name: "license",
         message: "Please choose a license for your project:",
-        choices: ["Academic Free License v3.0", "Apache 2.0", "BSD 3", "Creative Commons", "wtfpl", "GPL", "MIT", "None"]
+        choices: ["Academic Free License v3.0", "Apache 2.0", "Creative Commons", "wtfpl", "GPL", "MIT", "NONE", "OTHER"]
+      },
+      {
+        type: "input",
+        name: "license",
+        when: (answers) => answers.license === "OTHER",
+        message: "Please input the name of the license:"
       },
       {
         type: "input",
