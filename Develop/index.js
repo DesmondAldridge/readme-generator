@@ -61,7 +61,6 @@ function promptUser() {
     ]);
   }
 
-// function to write README file
 function writeToFile(fileName, data) {
   fs.writeFile(fileName, data, "utf8", function(err) {
     if (err) {
@@ -70,7 +69,6 @@ function writeToFile(fileName, data) {
   });
 };
 
-// function to initialize program
 async function init() {
   console.log("Initiation!")
   try {
